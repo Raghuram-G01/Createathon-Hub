@@ -1,5 +1,5 @@
 # Createathon-Hub 
-Project Title: Team Member Portfolio Integration
+Project Title: Responsive portfolio.
 
 Description:
 This project involves creating a fully responsive portfolio website for individual team members and integrating all these portfolios into a centralized team portfolio platform. The project ensures seamless navigation between individual portfolios while showcasing the unique skills, accomplishments, and profiles of each team member.
