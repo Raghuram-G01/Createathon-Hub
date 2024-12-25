@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar a.active {
+    color: red;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    color:#ededed ;
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: red;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-box {
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 100%;
+    background: red;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.abouth1{
+    padding-top: 100px ;
+    color: red;
+}
+
+.Skillh1{
+    color: red;
+}
+
+.list{
+    padding-left: 100px;
+    font-size: 30px;
+    margin: 20px 0 40px;
+}
+
+a{
+    color:#ededed
+}
+
+a:hover{
+    color: red;
+}
+
+p.homep{
+    font-size: 25px;
+}
+
+
+img{
+    display: block;
+    width: 250px;
+    border-radius: 50%;
+    margin:100px
+}
