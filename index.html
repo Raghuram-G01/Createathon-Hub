@@ -1,36 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/
+boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Raghuram</span></a>
+        
+        <nav class="navbar">
+        <a href="#" class="active">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+        <a href="#">Education</a>
+        </nav>
+        
+        <a href="#" class="contact">Contact Me</a>
+    </header>
+        
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
 
+            <h1>I'm <span>Raghuram<br></span>a Frontend Developer</h1>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>My portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+            <p></p>
 
-    <body>
-
-        <header class="header">
-            <a href="#" class="logo">Parameshwaran</a>
-
-            <nav class="navbar">
-                <a href="#" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="skills.html">Skills</a>
-                <a href="achievement.html">Achievements</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-
-        <section class="home">
-            <img src="my profile.jpg" alt="Parameshwaran's photo">
-            <div class="home-content">
-                <h1 class="homeh1">Hi, I am Parameshwaran</h1>
-                <h3>Aspiring computer science engineer</h3>
-                <p class="homep">""</p>
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+                <button class="btn-2">Experience</button>    
             </div>
-        </section>
-    </body>
+        </div>
+        <div class="img-box">
+            <img src="raghu2.jpg"alt="raghu's image">
+        </div>
+    </section>
+    <section class="about">
+        <div class="about-img">
+            <img src="raghu1.jpg" alt="raghu's image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="about-content">About <span>Me</span></h2>
+
+            <h3>Frontend <span>Developer</span></h3>
+            <p>"In the world of web development, change is the only constant"<br>Hello! I'm Raghuram, a dedicated developer with a strong background in programming and problem-solving. I am currently studying at Sri Eshwar College of Engineering, where I have developed a deep interest in software development and enhanced my technical skills. Proficient in C, C++, Python, HTML, CSS, and JavaScript, I offer versatility as a full-stack developer.
+
+                I specialize in developing efficient solutions, writing clean and maintainable code, and working collaboratively in team environments. My key strengths include a keen eye for detail, creativity, and a dedication to continuous learning. While I may need some time to adjust to new settings, I tackle challenges with determination and a commitment to excellence.</p>
+            <a href="#" class="btn-2">Experience</a>
+        </div>
+
+    </section>            
+
+    <section class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+            <input type="number" placeholder="Phone Number" required>
+            <input type="text" placeholder="Subject" required>
+            </div>
+
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <style>
+                .input-box input, .input-box textarea {
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px 0;
+                }
+            </style>
+
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <section class="team">
+        <h2>Meet the Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <a href="https://ravishankar2006.github.io/personal-portfolio/" target="_blank">
+                    <img src="ravi.jpg" alt="Ravishankar">
+                    <h3>Ravishankar</h3>
+                </a>
+            </div>
+            <div class="team-member">
+                <a href="https://rishivardhan-j.github.io/Project06/index.html" target="_blank">
+                    <img src="rishivardhan.jpg" alt="Rishivardhan">
+                    <h3>Rishivardhan</h3>
+                </a>
+            </div>
+            <div class="team-member">
+                <a href="https://parameshwaran-cse.github.io/personal-portfolio/index.html" target="_blank">   
+                    <img src="paramesh.jpg" alt="Parameshwaran"> 
+                    <h3>Parameshwaran</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        
+        <div class="social">
+
+            <a href="https://www.linkedin.com/in/raghuram1212007" class="social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/_raghuram_g/" class="social-icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Raghuram-G01" class="social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>        
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2024 Raghuram | All Rights Reserved</p>
+    </footer>
+</body>
 </html>
